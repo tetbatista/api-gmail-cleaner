@@ -1,0 +1,15 @@
+{
+  "name": "gmail-cleaner",
+  "version": "1.0.0",
+  "description": "Script para limpar emails do Gmail via API",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "auth": "node auth.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "googleapis": "^131.0.0"
+  }
+}
